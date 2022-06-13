@@ -1,4 +1,4 @@
 # Answer-Fission
-Creating an online reporting module for M.T
+The project is about to solve the doubt of the students by the experts which works on concept of Stack Overflow
 
-Team Members :- Keerthi Venkatesh Thota, Prabhat Singh Rajput, Sheetal Patil.
+Team Members :- Ashish Patidar, Sheetal Patil, Prabhat Singh Rajput.
