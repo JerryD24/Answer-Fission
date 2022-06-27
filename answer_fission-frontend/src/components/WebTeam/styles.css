@@ -30,6 +30,9 @@
 	color: rgb(0,150,205);
 	font-size: 18px;
 }
+.card{
+	margin-top: 150px;
+}
 .web-team-container .member-container .status {
 	font-size: 14px;
 	color: rgb(120,120,120);

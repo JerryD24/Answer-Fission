@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './styles.css';
-import PhotoNileshPatidar from './../../images/PhotoNileshPatidar.jpg';
 
 export default class WebTeam extends Component {
 	constructor(props){
@@ -9,37 +8,87 @@ export default class WebTeam extends Component {
 	render() {
 		return (
 			<div className="web-team-container">
+				<div class="col d-flex justify-content-around">
+				<div className="card">
 				<div className="web-team-wrapper">
 					<div className="member-container">
-						<img className="member-photo" alt="Photo" src={PhotoNileshPatidar}/>
-						<div className="member-name">Nilesh Patidar</div>
+						<div className="member-name">Ashish Patidar</div>
 						<div className="status">
-							<span className="field">Role</span> | Backend and Frontend Developer <br/>
+							<span className="field">Role</span> | Frontend Developer <br/>
 						</div>
 							<hr/>
 						<div className="contacts">
-							<a href="https://www.linkedin.com/in/nilesh-patidar-a48b7b1b2" target="_blank">
+							<a href="https://www.linkedin.com/in/ashish-patidar-34aa1a218/" target="_blank">
 								<i className="fa fa-linkedin-square contact-icon"></i>
 							</a>
-							<a href="https://www.instagram.com/nileshhh__/" target="_blank">
-								<i className="fa fa-instagram contact-icon"></i>
-							</a>
-							<a href="https://www.facebook.com/nilesh.patidar.7568" target="_blank">
-								<i className="fa fa-facebook-official contact-icon"></i>
-							</a>
-							<a href="https://twitter.com/d009d4ab58524c5" target="_blank">
-								<i className="fa fa-twitter contact-icon"></i>
+							<a href="https://github.com/patidarashu" target="_blank">
+								<i className="fa fa-github contact-icon"></i>
 							</a>
 							<br/>
 							<br/>
 							<div style={{textAlign: "left"}}>
-							<i className="fa fa-envelope "></i>  nileshpatidar874@gmail.com
+							<i className="fa fa-envelope "></i>  patidarashish388@gmail.com
 							<br/>
-							<i className="fa fa-phone "></i>  +91 | 9039824590
+							<i className="fa fa-phone "></i>  +91 | 8959199523
 							</div>
 
 						</div>
 					</div>
+				</div>
+				</div>
+				<div className="card">
+				<div className="web-team-wrapper">
+					<div className="member-container">
+						<div className="member-name">Prabhat Singh Rajput</div>
+						<div className="status">
+							<span className="field">Role</span> | Backend Developer <br/>
+						</div>
+							<hr/>
+						<div className="contacts">
+							<a href="https://www.linkedin.com/in/prabhat-singh-rajput-683a55200/" target="_blank">
+								<i className="fa fa-linkedin-square contact-icon"></i>
+							</a>
+							<a href="https://github.com/JerryD24" target="_blank">
+								<i className="fa fa-github contact-icon"></i>
+							</a>
+							<br/>
+							<br/>
+							<div style={{textAlign: "left"}}>
+							<i className="fa fa-envelope "></i>  prabhatc7879@gmail.com
+							<br/>
+							<i className="fa fa-phone "></i>  +91 | 7566552397
+							</div>
+
+						</div>
+					</div>
+				</div>
+				</div>
+				<div className="card">
+				<div className="web-team-wrapper">
+					<div className="member-container">
+						<div className="member-name">Sheetal Patil</div>
+						<div className="status">
+							<span className="field">Role</span> | Backend Developer <br/>
+						</div>
+							<hr/>
+						<div className="contacts">
+							<a href="https://www.linkedin.com/in/sheetal-patil-11b29a178/" target="_blank">
+								<i className="fa fa-linkedin-square contact-icon"></i>
+							</a>
+							<a href="https://github.com/sheetalpatil117" target="_blank">
+								<i className="fa fa-github contact-icon"></i>
+							</a>
+							<br/>
+							<br/>
+							<div style={{textAlign: "left"}}>
+							<i className="fa fa-envelope "></i>  sheetalpatil1171999@gmail.com
+							<br/>
+							<i className="fa fa-phone "></i>  +91 | 9131076050
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
 				</div>
 			</div>
 		);
