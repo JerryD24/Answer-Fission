@@ -32,7 +32,7 @@ app.use(session({
 
 // Routes
 
-app.post("/login",Authentication.login);
+app.post("/login",Authentication.login);	//this all are APIs and called from there definations
 
 app.post("/signup",Authentication.signup);
 
